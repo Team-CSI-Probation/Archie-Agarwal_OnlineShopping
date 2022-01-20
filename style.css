@@ -1,0 +1,110 @@
+.box .box1 {
+  background-color: white;
+  height: 100px;
+  border: 2px;
+}
+
+.box .box2 {
+  background-color: rgb(133, 241, 133);
+
+  height: 80px;
+  border: 2px;
+  border-radius: 100px;
+}
+
+.box .box2 .box3 {
+  width: 211.7px;
+  height: 80px;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: black;
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(1, 41, 1);
+}
+
+.box .box2 .box3 #box4 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.box .box2 a .box3:hover {
+  color: rgb(1, 41, 1);
+  background-color: rgb(177, 245, 228);
+}
+
+.box11 {
+  position: relative;
+  height: 549px;
+  border: 2px solid white;
+  margin: 4px;
+
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+  display: flex;
+}
+/*.box11 .box12{ 
+  z-index: 1;
+  position:absolute;
+  width:100%;
+}
+.box11 .box12 img{
+  z-index: 1;
+  width: 100%;
+  border-radius: 5px;
+
+} */
+.box11 .box12 .info {
+  position: absolute;
+  top: 0;
+  padding: 15px 30px;
+}
+
+/* .box11 .navigation .btn{
+  background: rgb(133, 241, 133);
+  position:relative;
+  bottom: 0%;
+  width:12px;
+  height:12px;
+  margin:10px;
+  cursor: pointer;
+} */
+
+.box16 {
+  background-color: white;
+  position: absolute;
+  top: 740px;
+  width: 1500px;
+  height: 400px;
+  border: 2px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+
+.box16 .image {
+  display: inline-block;
+
+  margin: 10px;
+  padding-bottom: 100px;
+}
+
+.box16 a .image:hover {
+  box-shadow: 0 25 rgb(228, 222, 222);
+}
+
+footer {
+  background-color: rgb(228, 222, 222);
+  position: absolute;
+  top: 1200px;
+  width: 1500px;
+  height: 500px;
+  border: 2px solid red;
+  border-radius: 40px;
+}

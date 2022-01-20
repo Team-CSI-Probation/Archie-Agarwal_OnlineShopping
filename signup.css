@@ -1,0 +1,45 @@
+.container {
+  margin: auto;
+  width:400px;
+  height:500px;
+  border: 2px solid rgb(76, 203, 245);
+  border-radius: 10px;
+  font-size: medium;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 15px;}
+
+
+  .container .btn{
+    position:relative;
+    text-align: center;
+    top: 20px;
+
+  }
+
+  .container .btn #bt {
+      
+      background-color: rgb(253, 166, 5);
+      position:relative;
+      top:10px;
+      right: 10px;
+      text-align: center;
+      width: 370px;
+      font-size: small;
+      border: 2px solid rgb(250, 93, 93);
+      border-radius: 50px;
+      cursor: pointer;
+      
+  }
+  .container .btn a #bt:hover {
+      background-color:rgb(243, 195, 107);;
+
+  }
+  footer{
+    background-color: rgb(245, 239, 239);
+    position:absolute;
+    top:550px;
+    width:1500px;
+    height: 500px;
+    border:2px solid red;
+    border-radius: 40px;
+  }
