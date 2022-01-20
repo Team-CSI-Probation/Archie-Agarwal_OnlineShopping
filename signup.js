@@ -1,2 +1,1 @@
-alert("Your email has been verified");
-
+alert("Your email heen verified");
