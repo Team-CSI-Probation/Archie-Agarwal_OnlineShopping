@@ -1,9 +1,76 @@
-.container{
-    margin: auto;
-  width:400px;
-  height:500px;
+.container {
+  margin: auto;
+  width: 400px;
+  height: 400px;
   border: 2px solid rgb(76, 203, 245);
   border-radius: 10px;
-  /* font-size: medium;
-  font-family:Arial, Helvetica, sans-serif;
-  padding-left: 15px;} */}
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 15px;
+}
+
+.container .btn {
+  position: relative;
+  text-align: center;
+  top: 20px;
+}
+
+.container .btn #bt {
+  background-color: rgb(91, 224, 91);
+  position: relative;
+  top: 5px;
+  right: 10px;
+  text-align: center;
+  width: 370px;
+  font-size: small;
+  border: 2px solid green;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.container .btn a #bt:hover {
+  background-color: rgb(145, 250, 145);
+}
+
+.container #text {
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  top: 45px;
+}
+
+#text1 {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+#b {
+  position: relative;
+  text-align: center;
+  top: 20px;
+
+  background-color: rgb(91, 224, 91);
+  position: relative;
+  top: 5px;
+  right: 10px;
+  text-align: center;
+  width: 370px;
+  font-size: small;
+  border: 2px solid green;
+  border-radius: 50px;
+  cursor: pointer;
+}
+a #b:hover {
+  background-color: rgb(145, 250, 145);
+} 
+footer {
+  background-color: rgb(245, 239, 239);
+  position: absolute;
+  top: 600px;
+  width: 1500px;
+  height: 500px;
+  border: 2px solid red;
+  border-radius: 40px;
+}

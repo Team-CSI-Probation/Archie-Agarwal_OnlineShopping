@@ -108,3 +108,8 @@ footer {
   border: 2px solid red;
   border-radius: 40px;
 }
+
+footer .foot{
+  display: inline-flex;
+  border:2px solid red;
+  height: 500px ;}
