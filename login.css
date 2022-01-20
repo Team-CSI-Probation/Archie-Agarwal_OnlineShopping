@@ -46,25 +46,9 @@
   top: 5px;
 }
 
-#b {
-  position: relative;
-  text-align: center;
-  top: 20px;
-
-  background-color: rgb(91, 224, 91);
-  position: relative;
-  top: 5px;
-  right: 10px;
-  text-align: center;
-  width: 370px;
-  font-size: small;
-  border: 2px solid green;
-  border-radius: 50px;
-  cursor: pointer;
+#b{
+  margin: auto;
 }
-a #b:hover {
-  background-color: rgb(145, 250, 145);
-} 
 footer {
   background-color: rgb(245, 239, 239);
   position: absolute;
